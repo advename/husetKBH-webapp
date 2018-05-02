@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Huset KBH</title>
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Culture</h1>
+        <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="active" href="#home">Culture</a></li>
+                <li><a href="#news">Events</a></li>
+                <li><a href="#contact">Music</a></li>
+                <li><a href="#about">Board Games</a></li>
+                <li><a href="#about">About Huset</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="events">
+
+        </section>
+        <div id="events-categories">
+           <h3>Categories</h3>
+            <p class="comedy">Comedy</p>
+            <p class="meetups">Meetups</p>
+            <p class="poetry-slam">Poetry Slam</p>
+        </div>
+    </main>
+
+    <nav id="bottom-nav">
+        <div class="left">
+            <i class="far fa-clock fa-2x"></i>
+        </div>
+        <div class="right">
+            <i class="fas fa-th-large fa-2x"></i>
+        </div>
+        <div class="active-back"></div>
+    </nav>
+
+    <div id="sgl-event">
+        <h3 class="date"><i class="far fa-calendar-alt"></i> - </h3>
+        <h3 class="time">&nbsp;<i class="far fa-clock"></i> - </h3>
+        <h1 class="title">International night with 2 Half Flamingo</h1>
+        <h3 class="venue"><i class="fas fa-map-marker"></i> - <a href="https://www.google.com/maps/place/">Bastard Café</a></h3>
+        <h3 class="price">GRATIS</h3>
+        <div class="img-container">
+            <img src="huset-img-place-holder.jpg" href="Huset Image">
+        </div>
+        <h4 class="door-open"><strong>Door open:</strong></h4>
+        <h4 class="show-start"><strong>&nbsp;Show start:</strong></h4>
+        <h4 class="show-end"><strong>&nbsp;Show end:</strong></h4>
+        <h4 class="min-age"><strong>&nbsp;Min. age:</strong></h4>
+
+        <p class="full-desc">Hvad er Samlingspunkt Indre By? Samlingspunktet er for ældre medborgere, der har interesse i at få nye oplevelser, sociale fællesskaber og livskvalitet. Samlingspunktet tilbyder bl.a. vejledning til brug af smartphones, netbank, borger.dk mv., fællesspisning, netværk, film, hygge, foredrag og kulturelle ture ud af huset, men det er jer som brugere, der er med til at sætte dagsordenen. </p>
+        <a href="" class="ticket-link">Tickets at door</a>
+        <a href="" class="somedia-link">Social Media</a>
+        <a href="" class="event-homepage">Homepage</a>
+    </div>
+
+
+    <template id="event-template">
+        <div class="event">
+
+                <h3 class="date"><i class="far fa-calendar-alt"></i></h3>
+                <h3 class="time"><i class="far fa-clock"></i></h3>
+                <a class="event-slug" href="?event-slug">
+                    <div class="img-container">
+                        <img src="huset-img-place-holder.jpg" href="Huset Image">
+                        <p class="short-desc">Get down with a cool event night and have fun with everything</p>
+                    </div>
+                    <h3 class="title">International night with 2 Half Flamingo</h3>
+                    <h3 class="venue"><i class="fas fa-map-marker"></i></h3>
+                    <h3 class="price">GRATIS</h3>
+                </a>
+            </div>
+    </template>
+
+    <div id="mobile-only">
+        <p>This website has been programmed for mobile devices, please visit it on one. Desktop and Tablet users will experience a very unpleasant version.</p>
+        <p class="continue">I dont mind, let me continue</p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
